@@ -2,7 +2,6 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity } from 'react-native';
 import { useState } from 'react';
 
-// Importamos todas las actividades estáticamente
 import Actividad1 from './Modulos/actividad1';
 import Actividad2 from './Modulos/actividad2';
 import Actividad3 from './Modulos/actividad3';
@@ -23,7 +22,6 @@ import Actividad17 from './Modulos/actividad17';
 import Actividad18 from './Modulos/actividad18';
 import Actividad19 from './Modulos/actividad19';
 
-// Array de componentes para manejo dinámico
 const activities = [
   Actividad1, Actividad2, Actividad3, Actividad4, Actividad5,
   Actividad6, Actividad7, Actividad8, Actividad9, Actividad10,
@@ -80,7 +78,6 @@ export default function App() {
   );
 }
 
-// Estilos (igual que en la versión anterior)
 const COLORS = {
   primary: '#3498db',
   secondary: '#2ecc71',
